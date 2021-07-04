@@ -1,0 +1,29 @@
+.section {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    
+    &__box {
+        height: 100px;
+
+        &--one {
+            background: red;
+            flex-basis: 400px;
+            flex-shrink: 1;
+        }
+
+        &--two {
+            background: green;
+            flex-basis: 600px;
+            flex-shrink: 2;
+        }
+
+        &--three {
+            background: blue;
+            flex-basis: 800px;
+            flex-shrink: 3;
+        }
+
+    }
+}

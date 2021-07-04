@@ -1,0 +1,30 @@
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section__box {
+  height: 100px;
+}
+
+.section__box--one {
+  background: red;
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+}
+
+.section__box--two {
+  background: green;
+  -ms-flex-preferred-size: 400px;
+      flex-basis: 400px;
+}
+
+.section__box--three {
+  background: blue;
+  -ms-flex-preferred-size: 600px;
+      flex-basis: 600px;
+}
